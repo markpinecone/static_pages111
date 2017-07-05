@@ -1,0 +1,15 @@
+Git secība
+
+git init
+git add -A
+git commit -m "Initialize repository"
+
+git remote add origin git@bitbucket.org:<username>/sample_app.git
+git push -u origin --all # pushes up the repo and its refs for the first time
+
+
+git checkout -b static-pages (Jauns branch)
+
+git add -A
+git commit -m "Add a Static Pages controller"
+git push -u origin static-pages
